@@ -1,0 +1,333 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* <link rel="stylesheet" href="http://i1.sdlcdn.com/static/img/marketing-mailers/mailer/2015/newFashionMarch027_2015/css/fontello.css"> */
+/*
+* Scut, a collection of Sass utilities
+* to ease and improve our implementations of common style-code patterns.
+* v1.2.1
+* Docs at http://davidtheclark.github.io/scut
+*/
+/* Start with mobile first definitions */
+/* line 25, ../sass/partials/_vars.scss */
+.alignX {
+  text-align: center;
+}
+
+/* line 29, ../sass/partials/_vars.scss */
+.wrapCenterCont {
+  text-align: center;
+  height: 100%;
+}
+/* line 32, ../sass/partials/_vars.scss */
+.wrapCenterCont:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 40, ../sass/partials/_vars.scss */
+.centeredContX {
+  display: inline-block;
+  vertical-align: middle;
+  width: 98%;
+}
+
+/* line 47, ../sass/partials/_vars.scss */
+.contRofl_clr, .headerBannerX, .navContX, .navContX ul li a, .subNavContX, .subNavContX ul li a {
+  width: 100%;
+  float: left;
+}
+/* line 15, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.contRofl_clr:after, .headerBannerX:after, .navContX:after, .navContX ul li a:after, .subNavContX:after, .subNavContX ul li a:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 53, ../sass/partials/_vars.scss */
+.flexImg99, .headerBannerX img {
+  max-width: 100%;
+  height: auto;
+  display: inline;
+}
+
+/* line 60, ../sass/partials/_vars.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 67, ../sass/partials/_vars.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 1, ../sass/partials/_navHeader.scss */
+.headerBannerX {
+  height: 16em;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 8, ../sass/partials/_navHeader.scss */
+.headerBannerX img {
+  float: left;
+}
+
+/* line 16, ../sass/partials/_navHeader.scss */
+.navContX ul {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
+}
+/* line 20, ../sass/partials/_navHeader.scss */
+.navContX ul li {
+  float: left;
+  display: block;
+  width: 20%;
+  color: red;
+  padding: 0.6em 0;
+}
+/* line 26, ../sass/partials/_navHeader.scss */
+.navContX ul li a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.875em;
+  padding: 0.2em 0.6em;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* line 43, ../sass/partials/_navHeader.scss */
+.subNavContX ul {
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+/* line 47, ../sass/partials/_navHeader.scss */
+.subNavContX ul li {
+  float: left;
+  display: block;
+  width: 33.33%;
+  color: red;
+  padding: 0.6em 0;
+}
+/* line 53, ../sass/partials/_navHeader.scss */
+.subNavContX ul li a {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+  padding: 0.2em 0.6em;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* line 27, ../sass/screen.scss */
+#mainWrapperX_PromotionName {
+  max-width: 1664px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-linear-gradient( left , rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 91.24088%, transparent 91.24088%);
+  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 91.24088%, transparent 91.24088%);
+  background-size: 8.39461%;
+  background-origin: content-box;
+  background-clip: content-box;
+  background-position: left top;
+  font-size: 1em;
+  line-height: 1;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: #212121;
+}
+/* line 12, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+#mainWrapperX_PromotionName:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 768px) {
+  /* line 27, ../sass/screen.scss */
+  #mainWrapperX_PromotionName {
+    font-size: 16px;
+  }
+}
+/* line 40, ../sass/screen.scss */
+#mainWrapperX_PromotionName h1 {
+  font-size: 6.5625em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+}
+/* line 47, ../sass/screen.scss */
+#mainWrapperX_PromotionName h3 {
+  font-size: 3.5em;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
+}
+@media (min-width: 320px) and (max-width: 640px) {
+  /* line 47, ../sass/screen.scss */
+  #mainWrapperX_PromotionName h3 {
+    color: red;
+  }
+}
+/* line 61, ../sass/screen.scss */
+#mainWrapperX_PromotionName ul {
+  list-style: none;
+}
+/* line 64, ../sass/screen.scss */
+#mainWrapperX_PromotionName p {
+  max-width: 400px;
+}
+/* line 68, ../sass/screen.scss */
+#mainWrapperX_PromotionName a img {
+  border: none;
+}
+/* line 71, ../sass/screen.scss */
+#mainWrapperX_PromotionName a {
+  outline: 0;
+  text-decoration: none;
+}
+/* line 75, ../sass/screen.scss */
+#mainWrapperX_PromotionName img.map,
+#mainWrapperX_PromotionName map area {
+  outline: none;
+}
+
+/* line 81, ../sass/screen.scss */
+.shop99X {
+  text-transform: uppercase;
+  font-size: 0.975em;
+  letter-spacing: 1px;
+  display: inline-block;
+  background: #ffffff;
+  color: #212121;
+  padding: 0.5em 0.9em;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.35);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 97, ../sass/screen.scss */
+.sectionWrapX {
+  height: 577px;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+/* line 15, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.sectionWrapX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 105, ../sass/screen.scss */
+.sectionWrapX_condX {
+  height: 577px;
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+/* line 15, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/bourbon-compass-4.0.2/stylesheets/bourbon/addons/_clearfix.scss */
+.sectionWrapX_condX:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 113, ../sass/screen.scss */
+.wrapX {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  height: 200px;
+}
+
+/* line 118, ../sass/screen.scss */
+.contentX {
+  width: 66.42157%;
+  float: left;
+  margin-right: 0.73529%;
+  background: rgba(0, 0, 0, 0.3);
+  height: 200px;
+}
+
+/* line 124, ../sass/screen.scss */
+.centeredX {
+  width: 49.44649%;
+  float: left;
+  margin-right: 1.10701%;
+  background: rgba(247, 142, 86, 0.8);
+  height: 200px;
+  margin-left: 25.27675%;
+}
+
+/* line 133, ../sass/screen.scss */
+.navFixedSmall {
+  position: static !important;
+  /*this resets FIXED widget to static position*/
+}
+
+/* line 138, ../sass/screen.scss */
+.gutterPromotionHiddenOnOtherPages {
+  display: none !important;
+}
+
+/* line 142, ../sass/screen.scss */
+.bottomFreezeDiv,
+#breadCrumbWrapper,
+#rightLangWrapper {
+  display: none !important;
+  z-index: -1 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 151, ../sass/screen.scss */
+.header-fixed,
+.hd-rvmp.header-fixed,
+#headerTop,
+#headerFixed {
+  position: static !important;
+}
+
+/* line 158, ../sass/screen.scss */
+#content_wrapper {
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+/*weird fixed nav bar*/
+/* line 164, ../sass/screen.scss */
+.fixed-header-slide {
+  min-height: 0px !important;
+}
+
+/* line 168, ../sass/screen.scss */
+#dock.dock {
+  position: static !important;
+  top: -100px;
+  display: none;
+}
+
+/* ////////////////// ENDERINO RESETERINO ///////////////////// */

@@ -1,0 +1,70 @@
+//media query definitions//
+///Media Sizes///
+/* Start with mobile first definitions */
+$min320_max640: 320px 640px; //min and max width
+$max_768: max-width 768px;
+$min_768: min-width 768px;
+$smallest: 320px;
+$medium_768: 768px;
+$medium_1024: 1024px;
+$big:1300px;
+$base-fsz:16px;
+
+//all colors//
+$primary:#f40000;
+$secondary: #f6f6f6;
+$hover: #606060;
+$textCol: #212121;
+
+//all fonts//
+$sansSerifFont: 'Roboto',
+sans-serif;
+$displayFont: Georgia, serif;
+
+
+.alignX {
+    text-align: center;
+}
+
+.wrapCenterCont {
+    text-align: center;
+    height: 100%;
+    &:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+
+.centeredContX {
+    display: inline-block;
+    vertical-align: middle;
+    width: 98%;
+    //max-definable width ~ 98% .. can vary
+}
+
+.contRofl_clr {
+    width: 100%;
+    float: left;
+    @include clearfix;
+}
+
+.flexImg99 {
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
